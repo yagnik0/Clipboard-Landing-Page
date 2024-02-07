@@ -1,0 +1,133 @@
+:root{
+    --strongcyan: hsl(171, 66%, 44%);
+    --lightblue: hsl(233, 100%, 69%);
+    --darkgray: hsl(210, 10%, 33%);
+    --gray: hsl(201, 11%, 66%);
+    --hovercyan:hsl(171, 46%, 62%);
+    --hoverblue:hsl(233, 91%, 74%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    background: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    text-align: center;
+    margin-top: 13.5rem;
+}
+
+.hero-img{
+    margin-bottom: 5.6rem;
+}
+
+.hero-intro, .hero-intro-2 {
+    max-width: 70rem;
+}
+
+.hero-head {
+    font-size: 4.5rem;
+    color: var(--darkgray);
+}
+
+.hero-para {
+    margin-top: 1.6rem;
+    margin-bottom: 3.5rem;
+    font-size: 2rem;
+    color: var(--gray);
+}
+
+.btn-ios {
+    border: none;
+    background-color: var(--strongcyan);
+    padding: 2rem 4rem;
+    border-radius: 4rem;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.btn-mac{
+    border: none;
+    background-color: var(--lightblue);
+    padding: 2rem 4rem;
+    border-radius: 4rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 1.6rem;
+    transition: all 0.3s;
+}
+
+.btn-ios:hover {
+    background-color: var(--hovercyan);
+}
+
+.btn-mac:hover {
+    background-color: var(--hoverblue);
+}
+
+.hero-intro-2 {
+    margin-top: 10rem;
+}
+
+.hero-head-2 {
+    font-size: 3.5rem;
+    color: var(--darkgray);
+}
+
+.hero-para-2 {
+    font-size: 1.8rem;
+    margin-top: 4rem;
+    color: var(--gray);
+}
+
+/* Grid 2 Coloum Styling */
+
+.grid-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
+}
+
+.grid-2-col {
+    padding: 9rem;
+}
+
+.boxes:nth-child(2) {
+        margin: 3rem 0;
+}
+
+.grid-head {
+    font-size: 2.3rem;
+    color: var(--darkgray);
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+.grid-para {
+    font-size: 1.6rem;
+    color: var(--gray);
+    line-height: 1.6;
+}
