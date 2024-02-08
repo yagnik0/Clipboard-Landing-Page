@@ -26,7 +26,7 @@ body {
     background-position: top;
 }
 
-.container {
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ body {
     margin-bottom: 5.6rem;
 }
 
-.hero-intro, .hero-intro-2 {
+.hero-intro, .hero-intro-2{
     max-width: 70rem;
 }
 
@@ -67,6 +67,7 @@ body {
     font-weight: 600;
     color: #fff;
     transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .btn-mac{
@@ -78,6 +79,7 @@ body {
     color: #fff;
     margin-left: 1.6rem;
     transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .btn-ios:hover {
@@ -88,16 +90,16 @@ body {
     background-color: var(--hoverblue);
 }
 
-.hero-intro-2 {
+.hero-intro-2, .hero-intro-3, .hero-intro-5{
     margin-top: 10rem;
 }
 
-.hero-head-2 {
+.hero-head-2, .hero-head-3, .hero-head-4, .hero-head-5{
     font-size: 3.5rem;
     color: var(--darkgray);
 }
 
-.hero-para-2 {
+.hero-para-2, .hero-para-4{
     font-size: 1.8rem;
     margin-top: 4rem;
     color: var(--gray);
@@ -131,3 +133,101 @@ body {
     color: var(--gray);
     line-height: 1.6;
 }
+
+/* Middle Section Styling */
+.middle-sect {
+    text-align: center;
+}
+
+.middle-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-intro-3, .hero-intro-5{
+    text-align: center;
+}
+
+.hero-para-3 {
+    color: var(--gray);
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    max-width: 60rem;
+}
+
+.big-image {
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+/* Workflow Styling */
+.workflow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workflow-center {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.hero-para-4{
+    margin-top: 2rem;
+}
+
+.grid-3-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center; 
+    gap: 2rem;
+    margin-top: 7.5rem;
+    max-width: 100rem;
+}
+
+.head-1-box {
+    font-size: 2.3rem;
+    color: var(--darkgray);
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.para-1-box {
+    font-size: 1.6rem;
+    color: var(--gray);
+    margin-top: 3rem;
+    line-height: 1.6;
+}
+
+/* Down styling */
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 9rem;
+}
+
+.img-style {
+    width:130px
+}
+
+.hero-intro-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12rem 0;
+}
+
+.hero-para-5 {
+    color: var(--gray);
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    max-width: 65rem;
+}
+
+
+
